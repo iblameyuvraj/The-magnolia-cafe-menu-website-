@@ -1,15 +1,27 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.html"
+      "dest": "/$1"
     }
+  ],
+  "rewrites": [
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/shakes", "destination": "/shakes.html" },
+    { "source": "/hot-coffee", "destination": "/HotC.html" },
+    { "source": "/cold-coffee", "destination": "/ColdC.html" },
+    { "source": "/cold-pressed-juice", "destination": "/coldpressedjuice.html" },
+    { "source": "/mocktail", "destination": "/mocktail.html" },
+    { "source": "/smoothies", "destination": "/smoothies.html" },
+    { "source": "/vegetables", "destination": "/vegetables.html" },
+    { "source": "/cold-brew", "destination": "/coldbrew.html" },
+    { "source": "/non-veg", "destination": "/Non-veg.html" },
+    { "source": "/sandwich", "destination": "/Sandwhich.html" },
+    { "source": "/mexican", "destination": "/mexican.html" },
+    { "source": "/wrap", "destination": "/wrap.html" },
+    { "source": "/appertisers", "destination": "/Appertisers.html" },
+    { "source": "/bites", "destination": "/Bites.html" },
+    { "source": "/gallery", "destination": "/food.html" }
   ]
 }
