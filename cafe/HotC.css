@@ -1,0 +1,58 @@
+/* Table styling */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+  }
+  
+  /* Table header styling */
+  thead th {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  
+  /* Table body styling */
+  tbody td {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid black;
+  }
+  
+  /* Add border and style to table rows */
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Hover effect for table rows */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Table border rounding */
+  table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* Add spacing between table edges */
+  table {
+    margin-top: 20px;
+  }
+
+p{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
